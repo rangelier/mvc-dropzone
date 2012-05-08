@@ -20,3 +20,11 @@ The action method wich is provided inside the document ready function will be ca
     //this element will behave as the drop zone for all the draggable elements.
     <div class="droppable"></div>
     
+#Action method
+    //the action method that will be called when a element is dropped inside the zone
+    [HttpPost]
+    public JsonResult Create(int id)
+    {
+        return Json("It works like a charm!", JsonRequestBehavior.AllowGet);
+    }
+    

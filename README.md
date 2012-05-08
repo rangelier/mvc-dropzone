@@ -27,4 +27,7 @@ The action method wich is provided inside the document ready function will be ca
     {
         return Json("It works like a charm!", JsonRequestBehavior.AllowGet);
     }
-    
+
+#Dependencies
+1.  jQuery xxx
+2.  jQuery UI

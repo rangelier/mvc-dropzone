@@ -42,5 +42,8 @@ The action method wich is provided when initializing the plugin, will be called 
     2. highlight // Get or sets the css class wich formats the drop zone when a element can be dropped.
     3. cursor // Get or sets the cursor type to use when the drag start e.q. crosshair,move,pointer
 3.  **messages**
+    1. droppable //Get or sets the message when a element is droppable.
+    2. dropped //Get or sets the message to display when a element is dropped inside the drop zone.
+    3. error //Get or sets the error message wich will be displayed inside the drop zone if an error occurs.
 4.  **identifier** // Identifies the attribute on wich the elements value is stored.
 5.  **action** // Get or sets the server side action method to call when a element is dropped inside the drop zone.

@@ -35,9 +35,9 @@ The action method wich is provided when initializing the plugin, will be called 
 
 #Options
 
-1.  ajaxSettings
+1.  **ajaxSettings**
     1. type // 'GET' or 'POST'
-2.  styles
-3.  messages
-4.  identifier // Identifies the attribute on wich the elements value is stored.
-5.  action // Get or sets the server side action method to call when a element is dropped inside the drop zone.
+2.  **styles**
+3.  **messages**
+4.  **identifier** // Identifies the attribute on wich the elements value is stored.
+5.  **action** // Get or sets the server side action method to call when a element is dropped inside the drop zone.

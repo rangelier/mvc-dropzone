@@ -5,7 +5,8 @@ This simple jQuery plugin will enable DOM elements to be dragged and dropped ins
 The action method wich is provided when initializing the plugin, will be called for each element that is dropped inside the drop zone.
 
 #Example
-    
+
+## Client
     <script type="text/javascript">
     $(function(){
       $("body").dragdrop({
@@ -20,7 +21,7 @@ The action method wich is provided when initializing the plugin, will be called 
     //this element will behave as the drop zone for all the draggable elements.
     <div class="droppable"></div>
     
-#Action method
+## Server
     //the action method that will be called when a element is dropped inside the zone
     [HttpPost]
     public JsonResult Create(int id)

@@ -38,4 +38,5 @@ The action method wich is provided when initializing the plugin, will be called 
 1.  ajaxSettings
 2.  styles
 3.  messages
-4.  
+4.  identifier
+5.  action

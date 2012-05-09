@@ -45,5 +45,5 @@ The action method wich is provided when initializing the plugin, will be called 
     * droppable // Get or sets the message when a element is droppable.
     * dropped // Get or sets the message to display when a element is dropped inside the drop zone.
     * error // Get or sets the error message wich will be displayed inside the drop zone if an error occurs.
-*  **identifier** // Identifies the attribute on wich the elements value is stored.
+*  **identifier** // The name of the attribute where the elements key value is stored.
 *  **action** // Get or sets the server side action method to call when a element is dropped inside the drop zone.

@@ -2,7 +2,7 @@ mvc-dropzone
 ============
 
 This simple jQuery plugin will enable DOM elements to be dragged and dropped inside a drop zone.
-The action method wich is provided inside the document ready function will be called for each element that is dropped inside the drop zone.
+The action method wich is provided when initializing the plugin, will be called for each element that is dropped inside the drop zone.
 
 #Example
     

@@ -36,3 +36,5 @@ The action method wich is provided when initializing the plugin, will be called 
 #Options
 
 1.  styles
+2.  messages
+3.   

@@ -32,3 +32,7 @@ The action method wich is provided when initializing the plugin, will be called 
 #Dependencies
 1.  jQuery xxx
 2.  jQuery UI
+
+#Options
+
+1.  styles

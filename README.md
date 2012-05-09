@@ -36,7 +36,7 @@ The action method wich is provided when initializing the plugin, will be called 
 #Options
 
 1.  **ajaxSettings**
-    1. type // 'GET' or 'POST'
+    1. type // GET or POST
 2.  **styles**
 3.  **messages**
 4.  **identifier** // Identifies the attribute on wich the elements value is stored.

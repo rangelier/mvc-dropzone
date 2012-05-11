@@ -96,6 +96,15 @@
         });
     };
     $.fn.dragdrop.defaults = {
+        ajax: {
+            type: "POST",
+            contentType: "application/json",
+            dataType: "json",
+            error: function () {
+            },
+            success: function () {
+            }
+        },
         styles: {
             dragging: "dcf-dragging",
             highlight: "dcf-highlight",
